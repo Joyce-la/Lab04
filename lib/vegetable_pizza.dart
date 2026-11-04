@@ -23,6 +23,13 @@ class VegetablePizzaScreen extends StatelessWidget {
               'Vegetable Pizza is a pizza with mixed '
               'vegetable mix on top of it.',
             ),
+            const SizedBox(height: 24),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, 'order_summary');
+              },
+              child: const Text('View Order Summary'),
+            ),
           ],
         ),
       ),
