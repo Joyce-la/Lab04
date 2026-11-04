@@ -14,11 +14,7 @@ class FriesScreen extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'assets/images/fries.jpg',
-              width: 200,
-              height: 200,
-            ),
+            Image.asset('assets/images/fries.jpg', width: 200, height: 200),
             const Text(
               'Box of Fries is a delicious snack '
               'made from crispy potatoes.',

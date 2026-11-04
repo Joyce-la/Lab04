@@ -30,10 +30,7 @@ class MenuScreen extends StatelessWidget {
                   'assets/images/veggie_pizza.jpg',
                   width: 40,
                 ),
-                title: const Text(
-                  'Vegetable Pizza',
-                  style: itemStyle,
-                ),
+                title: const Text('Vegetable Pizza', style: itemStyle),
               ),
             ),
           ),
@@ -50,10 +47,7 @@ class MenuScreen extends StatelessWidget {
                   'assets/images/cheese_pizza.jpg',
                   width: 40,
                 ),
-                title: const Text(
-                  'Cheese Pizza',
-                  style: itemStyle,
-                ),
+                title: const Text('Cheese Pizza', style: itemStyle),
               ),
             ),
           ),
@@ -66,14 +60,8 @@ class MenuScreen extends StatelessWidget {
             child: Card(
               color: Colors.orange,
               child: ListTile(
-                leading: Image.asset(
-                  'assets/images/fries.jpg',
-                  width: 40,
-                ),
-                title: const Text(
-                  'Box of Fries',
-                  style: itemStyle,
-                ),
+                leading: Image.asset('assets/images/fries.jpg', width: 40),
+                title: const Text('Box of Fries', style: itemStyle),
               ),
             ),
           ),
